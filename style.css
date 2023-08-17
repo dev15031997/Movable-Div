@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+	background-color: #e0b61f;
+}
+
+.imgBox{
+    background-image: url('pic.jpg');
+    position: relative;
+    top: 7px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    display: inline-block; 
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.hide{
+    display: none;
+}
